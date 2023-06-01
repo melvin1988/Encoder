@@ -2,7 +2,7 @@ package service;
 
 import constant.ReferenceTable;
 
-public class Encoder {
+public class EncoderService {
     // Returns true if the character is found in the reference table
     public boolean existInReferenceTable(Character letter) {
 	for(Character c : ReferenceTable.referenceTable) {

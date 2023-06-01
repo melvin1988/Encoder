@@ -1,11 +1,11 @@
 package controller;
 
-import service.Encoder;
+import service.EncoderService;
 
-public class Main {
+public class EncoderController {
 
     public static void main(String[] args) {
-	Encoder encoder = new Encoder();
+	EncoderService encoder = new EncoderService();
 	
 	String encodedText1 = encoder.encode("HELLO WORLD", "B");
 	System.out.println(encodedText1);
